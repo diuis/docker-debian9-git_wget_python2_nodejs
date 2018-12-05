@@ -1,4 +1,4 @@
-FROM diuis/docker-debian9-git_wget_python2:v1.0.3
+FROM diuis/docker-debian9-git_wget_python2:v1.0.4
 
 RUN apt-get update && \
     wget -O - https://deb.nodesource.com/setup_10.x | bash && \
